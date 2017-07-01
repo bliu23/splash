@@ -1,3 +1,25 @@
+.animationtest {
+    height: 100px;
+    line-height: 100px;
+    width: 300px;
+    margin-left: 140%;
+    -webkit-transition: margin-left 2.5s; /* Safari */
+    transition: margin-left 2.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#svg:hover ~ .animationtest {
+    margin-left: calc(50% + 100px);
+}
+
 /**
  *
  * Absolute position in the center of the parent element (top, left). 
@@ -8,6 +30,7 @@ article {
   left: 50%;
   top: 50%;
 }
+
 
 /**
  *
@@ -306,6 +329,7 @@ article {
 }
 body {
   text-align: center;
+  overflow: hidden;
 }
 
 .svg {
