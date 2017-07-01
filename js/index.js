@@ -25,7 +25,18 @@ function boom() {
   console.log("boom!");
   document.getElementsByClassName("candybox2")[0].style.display = 'block';
   document.getElementsByClassName("svg")[0].style.display = 'none';
-  document.getElementById("tooltip").style.display='none';
+  var size = 20;
+  while(document.getElementById("articlewrapper").offsetWidth > $(window).width()) {
+    size--;
+    shrink(size);
+  }
+}
+
+function shrink(size) {
+  for(let i of document.getElementsByClassName("candybox2")[0].childNodes) {
+      console.log(i.style.fontSize)
+      i.style.fontSize = size + "px";
+  }
 }
 
 // setTimeout(function(){

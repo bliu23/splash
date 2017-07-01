@@ -4,9 +4,9 @@
   line-height: 100px;
   width: 300px;
   margin-left: 140%;
-  -webkit-transition: margin-left 2.5s;
+  -webkit-transition: margin-left 2s;
   /* Safari */
-  transition: margin-left 2.5s;
+  transition: margin-left 2s;
   position: absolute;
   top: 0;
   left: 0;
@@ -602,16 +602,7 @@ body {
     fill: #0057B8;
   }
 }
-/* line 497, ../sass/screen.scss */
-#tooltip {
-  position: absolute;
-  top: 45%;
-  font-size: 30px;
-  margin-left: 300px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-/* line 505, ../sass/screen.scss */
+/* line 498, ../sass/screen.scss */
 #svg {
   width: 300px;
   height: 200px;

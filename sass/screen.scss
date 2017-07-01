@@ -3,8 +3,8 @@
     line-height: 100px;
     width: 300px;
     margin-left: 140%;
-    -webkit-transition: margin-left 2.5s; /* Safari */
-    transition: margin-left 2.5s;
+    -webkit-transition: margin-left 2s; /* Safari */
+    transition: margin-left 2s;
     position: absolute;
     top: 0;
     left: 0;
@@ -493,13 +493,6 @@ body {
   100% {
     fill: #0057B8;
   }
-}
-#tooltip {
-  position: absolute;
-  top: 45%;
-  font-size: 30px;
-  margin-left: 300px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #svg {
